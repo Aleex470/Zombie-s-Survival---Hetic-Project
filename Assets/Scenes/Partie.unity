@@ -230,6 +230,7 @@ MonoBehaviour:
   - {fileID: 2116136115}
   - {fileID: 2081087593}
   - {fileID: 2049938066}
+  maxZombies: 5
 --- !u!65 &541992035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -330,7 +331,7 @@ GameObject:
   - component: {fileID: 554172209}
   - component: {fileID: 554172208}
   m_Layer: 0
-  m_Name: Spawner (1)
+  m_Name: Spawner 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,6 +355,7 @@ MonoBehaviour:
   - {fileID: 554172207}
   - {fileID: 554172207}
   - {fileID: 554172207}
+  maxZombies: 5
 --- !u!65 &554172209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -483,6 +485,7 @@ MonoBehaviour:
   - {fileID: 1086497448}
   - {fileID: 1086497448}
   - {fileID: 1086497448}
+  maxZombies: 5
 --- !u!65 &1086497450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -712,6 +715,7 @@ MonoBehaviour:
   - {fileID: 1191117799}
   - {fileID: 1191117799}
   - {fileID: 1191117799}
+  maxZombies: 5
 --- !u!65 &1191117801
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -873,6 +877,7 @@ MonoBehaviour:
   - {fileID: 1865278530}
   - {fileID: 1865278530}
   - {fileID: 1865278530}
+  maxZombies: 5
 --- !u!65 &1865278532
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1134,6 +1139,7 @@ MonoBehaviour:
   - {fileID: 2049938066}
   - {fileID: 2049938066}
   - {fileID: 2049938066}
+  maxZombies: 5
 --- !u!65 &2049938068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1258,6 +1264,7 @@ MonoBehaviour:
   - {fileID: 2081087593}
   - {fileID: 2081087593}
   - {fileID: 2081087593}
+  maxZombies: 5
 --- !u!65 &2081087595
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1382,6 +1389,7 @@ MonoBehaviour:
   - {fileID: 2116136115}
   - {fileID: 2116136115}
   - {fileID: 2116136115}
+  maxZombies: 5
 --- !u!65 &2116136117
 BoxCollider:
   m_ObjectHideFlags: 0
