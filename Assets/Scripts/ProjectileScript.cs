@@ -11,9 +11,11 @@ public class ProjectileScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Monster")
+        if (collision.gameObject.tag == "Zombie")
+        {
             collision.gameObject.GetComponent<LifeScript>().UpdateLife(1);
+        }
 
-        //Destroy(gameObject);
+        Destroy(gameObject);
     }
 }
