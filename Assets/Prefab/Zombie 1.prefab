@@ -1005,6 +1005,7 @@ GameObject:
   - component: {fileID: 6949481284009228991}
   - component: {fileID: 4139174224315552610}
   - component: {fileID: 8874991152740860981}
+  - component: {fileID: 6400577501820495319}
   m_Layer: 0
   m_Name: Zombie 1
   m_TagString: Zombie
@@ -1134,7 +1135,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.5
+  m_Radius: 1.5
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!54 &4139174224315552610
 Rigidbody:
@@ -1176,6 +1177,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentLife: 10
+--- !u!114 &6400577501820495319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3077287179997030411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ff94061427a41847b2c1dab0ef333a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DelayAttack: 0.5
+  DamageAttack: 10
 --- !u!1 &3105260182294132503
 GameObject:
   m_ObjectHideFlags: 0
