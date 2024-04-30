@@ -7,7 +7,7 @@ public class PlayerLifeScript : MonoBehaviour
 {
     public int CurrentLife;
     public int MaxLife;
-    public GameObject DeathMenu;
+    //public GameObject DeathMenu;
 
     public GameObject LifeBar;
 
@@ -26,12 +26,12 @@ public class PlayerLifeScript : MonoBehaviour
         }
         LifeBar.transform.localScale = new Vector3( (float)CurrentLife / (float)MaxLife , 1, 1);
 
-        if (CurrentLife < 0)
-        {
-            Time.timeScale = 0;
-            DeathMenu.SetActive(true);
+        //if (CurrentLife < 0)
+        //{
+        //    Time.timeScale = 0;
+        //    DeathMenu.SetActive(true);
 
 
-        }
+        //}
     }
 }
