@@ -5,7 +5,7 @@ using UnityEngine;
 public class ShootScript : MonoBehaviour
 {
 
-    public GameObject Projectile;
+    public GameObject Munition;
     public float ProjectileSpeed;
     public GameObject ProjectileSpawnPosition;
 
@@ -13,10 +13,10 @@ public class ShootScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P) || Input.GetMouseButtonDown(0))
         {
-            GameObject P = Instantiate(Projectile);
-            P.transform.position = ProjectileSpawnPosition.transform.position;  
-            P.transform.rotation = transform.rotation;
-            P.GetComponent<Rigidbody>().AddForce(P.transform.forward * ProjectileSpeed);  
+            GameObject M = Instantiate(Munition);
+            M.transform.position = ProjectileSpawnPosition.transform.position;  
+            M.transform.rotation = transform.rotation;
+            M.GetComponent<Rigidbody>().AddForce(M.transform.forward * ProjectileSpeed);  
 
         }
     }
