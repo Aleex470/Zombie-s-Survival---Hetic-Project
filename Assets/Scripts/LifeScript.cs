@@ -12,7 +12,7 @@ public class LifeScript : MonoBehaviour
         if (CurrentLife < 0 )
         {
             Destroy(this.gameObject);
-            ScoreScript.instance.UpdateScore(1);
+            //ScoreScript.instance.UpdateScore(1);
         }
     }
 }

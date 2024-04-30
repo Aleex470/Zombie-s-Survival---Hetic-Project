@@ -13,7 +13,7 @@ public class ProjectileScript : MonoBehaviour
     {
         if (collision.gameObject.tag == "Zombie")
         {
-            collision.gameObject.GetComponent<LifeScript>().UpdateLife(1);
+            collision.gameObject.GetComponent<LifeScript>().UpdateLife(10);
         }
 
         Destroy(gameObject);
